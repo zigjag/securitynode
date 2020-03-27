@@ -10,8 +10,8 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public/"));
 app.set("view engine", 'ejs');
 
-mongoose.connect("mongodb://localhost:27017/userDB",
-{useNewUrlParser: true});
+// mongoose.connect("mongodb://localhost:27017/userDB",
+// {useNewUrlParser: true});
 
 //---------------------Port Section---------------------
 const PORT = process.env.PORT || 3000
